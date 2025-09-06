@@ -12,7 +12,7 @@
 
 void main() {
   print("Hello, Dart!");
-}
+
 
 
 // 3️⃣ Printing Values
@@ -20,11 +20,9 @@ void main() {
 // You use `print()` to display messages.
 
 
-void main() {
   print("My first Dart program");
   print(100);
   print(true);
-}
 
 
 
@@ -34,7 +32,6 @@ void main() {
 
 // a) Using `var` (auto-detect type)
 
-void main() {
   var name = "Venkat";  // String
   var age = 23;         // int
   var height = 5.8;     // double
@@ -44,11 +41,10 @@ void main() {
   print(age);
   print(height);
   print(isStudent);
-}
 
 //  b) Declaring with explicit type
 
-void main() {
+
   String city = "Hyderabad";
   int year = 2025;
   double price = 99.99;
@@ -58,15 +54,10 @@ void main() {
   print(year);
   print(price);
   print(isOpen);
-}
 
 // 5️⃣ String Interpolation
 
 // You can insert variables inside strings using `$variable` or `${expression}`:
-
-void main() {
-  String name = "Venkat";
-  int age = 23;
 
   print("Hello, my name is $name and I am $age years old.");
   print("Next year, I will be ${age + 1}.");
