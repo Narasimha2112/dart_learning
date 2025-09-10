@@ -17,8 +17,38 @@ Day 6 → Loops (for, while, do-while, for-in)
 
 Mini Projects
 
-1) Student Marks System
+🎯 Mini Project 1 – Student Marks System
 
-2) Number Guessing Game
+📌 Problem:
 
-3) Multiplication Table
+Take input of 3 subject marks
+
+Calculate total, average, and grade
+
+Grade rules:
+
+90+ → A
+
+75–89 → B
+
+50–74 → C
+
+<50 → Fail
+
+======================================================================================================================
+🎯 Mini Project 2 – Multiplication Table Generator
+
+📌 Problem:
+
+Take input of a number
+
+Print its multiplication table up to 10
+
+====================================================================================================================
+🎯 Mini Project 3 – Number Guessing Game
+
+📌 Problem:
+
+Computer has a secret number
+
+User keeps guessing until correct
