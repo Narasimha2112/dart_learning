@@ -1,0 +1,50 @@
+// 📝 Practice Tasks (Day 8)
+
+// Write a function multiply(a, b) that returns the product.
+int multiply(int a, int b) {
+  return a*b;
+}
+
+// Create a function isEven(n) that returns true if number is even.
+bool isEven(int n) {
+  return n % 2 == 0;
+}
+
+// Make a function greetUser(name, [msg]) → prints "Hello Venkat, Good Morning" (msg optional).
+void greetUser(String name,[String ? msg]) {
+  print("Hello $name ${msg ?? "Good Morning"}");
+}
+
+// Write a function getMax(a, b, c) → returns the largest number.
+int getMax(int a, int b, int c) {
+  if (a >= b && a >= c) {
+    return a;
+  } else if (b >= c && b >= a) {
+    return b;
+  } else {
+    return c;
+  }
+}
+
+// Create a function using arrow syntax to calculate the cube of a number.
+int cube(int x) => x*x*x;
+
+
+// Output
+void main() {
+  print(multiply(5, 8));
+  print(isEven(14));
+  print(isEven(25));
+  greetUser("Ravi");
+  greetUser("Prasad", "Good Evening");
+  print(getMax(8, 25, 75));
+  print(cube(20));
+}
+
+
+
+
+
+
+
+
