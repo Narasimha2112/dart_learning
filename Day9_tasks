@@ -1,0 +1,73 @@
+## ✅ Day 9 Solutions
+
+### 1️⃣ Create a list of 5 numbers and print their sum
+
+```
+void main() {
+  var numbers = [10, 20, 30, 40, 50];
+  int sum = 0;
+
+  for (var n in numbers) {
+    sum += n;
+  }
+
+  print("Sum = $sum"); // 150
+}
+```
+
+---
+
+### 2️⃣ Store 5 friend names in a list → print each name using a loop
+
+```
+void main() {
+  var friends = ["Ravi", "Kiran", "Venkat", "Anil", "Suresh"];
+
+  for (var f in friends) {
+    print(f);
+  }
+}
+```
+
+---
+
+### 3️⃣ Create a set with duplicate numbers → show how duplicates are removed
+
+```
+void main() {
+  var nums = {1, 2, 2, 3, 4, 4, 5};
+  print(nums); // {1, 2, 3, 4, 5}
+}
+```
+
+---
+
+### 4️⃣ Make a map and print each key-value pair
+
+```
+void main() {
+  var employee = {"id": 101, "name": "Ravi", "dept": "IT"};
+
+  employee.forEach((key, value) {
+    print("$key: $value");
+  });
+}
+```
+
+---
+
+### 5️⃣ Check if a list contains the number 100
+
+```
+void main() {
+  var nums = [10, 20, 30, 40, 50];
+
+  if (nums.contains(100)) {
+    print("List contains 100");
+  } else {
+    print("100 not found");
+  }
+}
+```
+
+
